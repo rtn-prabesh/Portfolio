@@ -355,7 +355,7 @@ export default function PortfolioPage() {
           </p>
         </div>
         <div className="flex flex-wrap gap-2">
-          {["HTML", "CSS", "JavaScript", ""].map((tech) => (
+          {["HTML", "CSS", "JavaScript"].map((tech) => (
             <Badge key={tech} className="bg-white/5 hover:bg-white/10 text-muted-foreground font-mono font-normal">
               {tech}
             </Badge>
